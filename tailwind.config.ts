@@ -9,8 +9,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Cal Sans', 'sans-serif'],
+        'cal-sans': ['Cal Sans', 'sans-serif'],
+      },
       screens: {
         '3xl': '1600px',
+        '4xl': '1920px',
+        '5xl': '2560px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
