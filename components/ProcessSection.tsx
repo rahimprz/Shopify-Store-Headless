@@ -42,9 +42,9 @@ export function ProcessSection() {
             <div>
               {/* Main Heading */}
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 sm:mb-8 cal-sans leading-[0.9] tracking-tight max-w-4xl">
-                Description <span className="text-amber-600">Architecture</span>
+                Description <span className="text-[#caa05c]">Architecture</span>
                 <br />
-                <span className="text-amber-600">Process</span> For Exceptional
+                <span className="text-[#caa05c]">Process</span> For Exceptional
                 <br />
                 Results.
               </h2>
@@ -81,7 +81,7 @@ export function ProcessSection() {
                 {/* Content */}
                 <div className="relative z-10">
                   <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
-                    <span className="text-amber-600">01.</span> Initial
+                    <span className="text-[#caa05c]">01.</span> Initial
                     <br />
                     Consultation
                   </h3>
@@ -114,7 +114,7 @@ export function ProcessSection() {
                 {/* Content */}
                 <div className="relative z-10">
                   <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
-                    <span className="text-amber-600">02.</span> Design &
+                    <span className="text-[#caa05c]">02.</span> Design &
                     <br />
                     Planning
                   </h3>
@@ -147,7 +147,7 @@ export function ProcessSection() {
                 {/* Content */}
                 <div className="relative z-10">
                   <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
-                    <span className="text-amber-600">03.</span> Implementation
+                    <span className="text-[#caa05c]">03.</span> Implementation
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed cal-sans font-light">
                     With carefully selected contractors, we manage every phase.
@@ -178,7 +178,7 @@ export function ProcessSection() {
                 {/* Content */}
                 <div className="relative z-10">
                   <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
-                    <span className="text-amber-600">04.</span> Project Handover
+                    <span className="text-[#caa05c]">04.</span> Project Handover
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed cal-sans font-light">
                     Upon completion, we conduct a thorough review, making sure all details.

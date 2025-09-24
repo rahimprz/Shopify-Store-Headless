@@ -47,9 +47,9 @@ export function NewsletterSection() {
         <AnimatedSection animation="slideInUp" delay={200} className="text-center mb-8">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 cal-sans leading-[0.9] tracking-tight">
-              Join <span className="text-amber-600">Our Newsletter</span>
+              Join <span className="text-[#caa05c]">Our Newsletter</span>
               <br />
-              <span className="text-amber-600">Stay</span> Up To Date
+              <span className="text-[#caa05c]">Stay</span> Up To Date
             </h2>
           </div>
         </AnimatedSection>
@@ -68,7 +68,7 @@ export function NewsletterSection() {
         {/* Newsletter Form */}
         <AnimatedSection animation="slideInUp" delay={600} className="max-w-md mx-auto">
           <form onSubmit={handleSubmit} className="relative">
-            <div className="flex items-center bg-white rounded-full shadow-xl border-2 border-gray-100 overflow-hidden hover:border-amber-200 transition-colors duration-300">
+            <div className="flex items-center bg-white rounded-full shadow-xl border-2 border-gray-100 overflow-hidden hover:border-[#caa05c]/30 transition-colors duration-300">
               <Input
                 type="email"
                 placeholder="Email address..."
@@ -80,7 +80,7 @@ export function NewsletterSection() {
               <Button
                 type="submit"
                 size="lg"
-                className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 mr-1 my-1 hover:scale-105"
+                className="bg-[#caa05c] hover:bg-[#b8945a] text-white rounded-full w-16 h-16 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 mr-1 my-1 hover:scale-105"
               >
                 <ArrowRight className="w-6 h-6" />
               </Button>

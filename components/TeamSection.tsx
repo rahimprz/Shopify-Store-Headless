@@ -71,9 +71,9 @@ export function TeamSection() {
             <div>
               {/* Main Heading */}
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-8 cal-sans leading-[0.9] tracking-tight">
-                Meet The <span className="text-amber-600">Experts Our</span>
+                Meet The <span className="text-[#caa05c]">Experts Our</span>
                 <br />
-                <span className="text-amber-600">Interior</span> Designers
+                <span className="text-[#caa05c]">Interior</span> Designers
               </h2>
 
               {/* Featured Team Member Image */}
@@ -97,8 +97,8 @@ export function TeamSection() {
               {teamMembers.map((member, index) => (
                 <div 
                   key={member.id}
-                  className={`group border-b border-gray-200 py-6 hover:border-amber-300 transition-all duration-300 cursor-pointer ${
-                    member.isHighlighted ? 'bg-gradient-to-r from-amber-50 to-transparent rounded-lg px-4' : ''
+                  className={`group border-b border-gray-200 py-6 hover:border-[#caa05c]/30 transition-all duration-300 cursor-pointer ${
+                    member.isHighlighted ? 'bg-gradient-to-r from-[#caa05c]/10 to-transparent rounded-lg px-4' : ''
                   }`}
                   style={{ 
                     opacity: 0,
@@ -109,13 +109,13 @@ export function TeamSection() {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center flex-1">
                       <span className={`font-bold cal-sans text-lg mr-6 min-w-[3rem] ${
-                        member.isHighlighted ? 'text-amber-600' : 'text-gray-400'
+                        member.isHighlighted ? 'text-[#caa05c]' : 'text-gray-400'
                       }`}>
                         {member.id}
                       </span>
                       <div className="flex-1">
                         <h3 className={`text-2xl lg:text-3xl font-bold cal-sans group-hover:text-gray-700 transition-colors duration-300 ${
-                          member.isHighlighted ? 'text-amber-600' : 'text-gray-900'
+                          member.isHighlighted ? 'text-[#caa05c]' : 'text-gray-900'
                         }`}>
                           {member.name}
                         </h3>
@@ -126,7 +126,7 @@ export function TeamSection() {
                     </div>
                     <div className={`w-10 h-10 rounded-full flex items-center justify-center group-hover:scale-110 transition-all duration-300 ml-4 ${
                       member.isHighlighted 
-                        ? 'bg-amber-500 text-white shadow-lg' 
+                        ? 'bg-[#caa05c] text-white shadow-lg' 
                         : 'bg-gray-100 group-hover:bg-gray-200'
                     }`}>
                       <ArrowUpRight className={`w-5 h-5 transition-colors duration-300 ${
@@ -153,4 +153,4 @@ export function TeamSection() {
       </div>
     </section>
   )
-} 
+}

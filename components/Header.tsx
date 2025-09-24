@@ -64,7 +64,7 @@ export function Header({ scrollY }: HeaderProps) {
             </div>
 
             {/* Get Quote Button */}
-            <Button className="bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cal-sans text-xs sm:text-sm md:text-base">
+            <Button className="bg-[#caa05c] hover:bg-[#b8945a] text-white px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cal-sans text-xs sm:text-sm md:text-base">
               Get A Quote!
             </Button>
 

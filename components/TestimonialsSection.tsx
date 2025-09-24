@@ -53,9 +53,9 @@ export function TestimonialsSection() {
         <AnimatedSection animation="slideInUp" delay={200} className="text-center mb-16 lg:mb-20">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 cal-sans leading-[0.9] tracking-tight">
-              Here's What <span className="text-amber-600">Warm Words</span>
+              Here's What <span className="text-[#caa05c]">Warm Words</span>
               <br />
-              <span className="text-amber-600">Our Clients</span> Say
+              <span className="text-[#caa05c]">Our Clients</span> Say
             </h2>
           </div>
         </AnimatedSection>
@@ -83,7 +83,7 @@ export function TestimonialsSection() {
                 </div>
               </div>
 
-              <div className="absolute bottom-6 right-6 bg-amber-500/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
+              <div className="absolute bottom-6 right-6 bg-[#caa05c]/95 backdrop-blur-sm rounded-2xl p-4 shadow-xl">
                 <div className="text-2xl font-bold text-white cal-sans">95%</div>
                 <div className="text-sm text-white/90 cal-sans">Complete</div>
               </div>
@@ -100,7 +100,7 @@ export function TestimonialsSection() {
                     <div className="text-5xl lg:text-6xl font-bold text-gray-900 cal-sans mb-2">4.80</div>
                     <div className="flex items-center mb-2">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-amber-500 fill-current" />
+                        <Star key={i} className="w-5 h-5 text-[#caa05c] fill-current" />
                       ))}
                     </div>
                     <div className="text-gray-600 cal-sans text-sm">2,688 reviews</div>
@@ -122,7 +122,7 @@ export function TestimonialsSection() {
               {/* Main Testimonial */}
               <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100">
                 <div className="mb-6">
-                  <div className="text-6xl text-amber-500 cal-sans leading-none mb-4">"</div>
+                  <div className="text-6xl text-[#caa05c] cal-sans leading-none mb-4">"</div>
                   <p className="text-lg lg:text-xl text-gray-700 leading-relaxed cal-sans font-light">
                     I absolutely love my the new modern living room! The clean lines, a neutral tones, and minimalist 
                     interior create such a calming & stylish atmosphere. Highly recommend their modern interior design services!
@@ -150,7 +150,7 @@ export function TestimonialsSection() {
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 text-amber-500 fill-current" />
+                      <Star key={i} className="w-4 h-4 text-[#caa05c] fill-current" />
                     ))}
                   </div>
                   <p className="text-gray-700 text-sm leading-relaxed cal-sans font-light mb-4">
@@ -174,7 +174,7 @@ export function TestimonialsSection() {
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 text-amber-500 fill-current" />
+                      <Star key={i} className="w-4 h-4 text-[#caa05c] fill-current" />
                     ))}
                   </div>
                   <p className="text-gray-700 text-sm leading-relaxed cal-sans font-light mb-4">

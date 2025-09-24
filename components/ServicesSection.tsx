@@ -43,7 +43,7 @@ export function ServicesSection() {
           <AnimatedSection animation="slideInLeft" delay={200} className="max-w-5xl mb-20">
             <div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 sm:mb-8 cal-sans leading-[0.9] tracking-tight max-w-4xl">
-                Experience <span className="text-amber-600">The Art Of Interior Design</span>
+                Experience <span className="text-[#caa05c]">The Art Of Interior Design</span>
               </h2>
               <div className="space-y-4 sm:space-y-6 text-gray-600 text-base sm:text-lg md:text-xl leading-relaxed cal-sans max-w-3xl">
                 <p className="font-light">We specialize in transforming visions into reality.</p>
@@ -70,8 +70,8 @@ export function ServicesSection() {
                       <br />
                       Design
                     </h3>
-                    <div className="w-14 h-14 bg-gradient-to-br from-amber-100 to-amber-200 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                      <div className="w-7 h-7 border-2 border-amber-600 rounded-sm"></div>
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#caa05c]/20 to-[#caa05c]/30 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                      <div className="w-7 h-7 border-2 border-[#caa05c] rounded-sm"></div>
                     </div>
                   </div>
                   <p className="text-gray-600 leading-relaxed cal-sans text-sm lg:text-base font-light">
@@ -96,8 +96,8 @@ export function ServicesSection() {
                       Design &<br />
                       Planning
                     </h3>
-                    <div className="w-14 h-14 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                      <div className="w-7 h-7 border-2 border-orange-600 rounded-full"></div>
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#caa05c]/20 to-[#caa05c]/30 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                      <div className="w-7 h-7 border-2 border-[#caa05c] rounded-full"></div>
                     </div>
                   </div>
                   <p className="text-gray-600 leading-relaxed cal-sans text-sm lg:text-base font-light">
@@ -121,8 +121,8 @@ export function ServicesSection() {
                       <br />
                       Services
                     </h3>
-                    <div className="w-14 h-14 bg-gradient-to-br from-amber-100 to-amber-200 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
-                      <div className="w-7 h-7 border-2 border-amber-600 rounded-lg transform rotate-45"></div>
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#caa05c]/20 to-[#caa05c]/30 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                      <div className="w-7 h-7 border-2 border-[#caa05c] rounded-lg transform rotate-45"></div>
                     </div>
                   </div>
                   <p className="text-gray-600 leading-relaxed cal-sans text-sm lg:text-base font-light">
@@ -146,11 +146,11 @@ export function ServicesSection() {
                       <br />
                       Management
                     </h3>
-                    <div className="w-14 h-14 bg-gradient-to-br from-orange-100 to-orange-200 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#caa05c]/20 to-[#caa05c]/30 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-md">
                       <div className="w-7 h-7">
-                        <div className="w-full h-1.5 bg-orange-600 rounded-full mb-1.5"></div>
-                        <div className="w-4 h-1.5 bg-orange-600 rounded-full mb-1.5"></div>
-                        <div className="w-5 h-1.5 bg-orange-600 rounded-full"></div>
+                        <div className="w-full h-1.5 bg-[#caa05c] rounded-full mb-1.5"></div>
+                        <div className="w-4 h-1.5 bg-[#caa05c] rounded-full mb-1.5"></div>
+                        <div className="w-5 h-1.5 bg-[#caa05c] rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -230,15 +230,15 @@ export function ServicesSection() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 sm:mb-8 md:mb-12 cal-sans leading-[0.9] tracking-tight max-w-5xl">
                 Where Spaces Inspire,
                 <br />
-                And <span className="text-amber-500">Design Comes</span>
+                And <span className="text-[#caa05c]">Design Comes</span>
                 <br />
-                <span className="text-amber-500">Alive</span>
+                <span className="text-[#caa05c]">Alive</span>
               </h2>
 
               {/* Feature List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
                 <div className="flex items-center text-white">
-                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-[#caa05c] rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
                     <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
@@ -251,7 +251,7 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-[#caa05c] rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
                     <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
@@ -264,7 +264,7 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-[#caa05c] rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
                     <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
@@ -277,7 +277,7 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-[#caa05c] rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
                     <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
@@ -298,7 +298,7 @@ export function ServicesSection() {
 
               {/* More About Us Button */}
               <div className="inline-block">
-                <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 group cal-sans text-base flex items-center shadow-xl hover:shadow-2xl hover:scale-105">
+                <Button className="bg-[#caa05c] hover:bg-[#b8945a] text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 group cal-sans text-base flex items-center shadow-xl hover:shadow-2xl hover:scale-105">
                   More About Us
                   <div className="ml-3 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -369,9 +369,9 @@ export function ServicesSection() {
           {/* Main Heading */}
           <div className="mb-12 opacity-0 comprehensive-content">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 cal-sans leading-[0.9] tracking-tight max-w-4xl">
-              Explore Our <span className="text-amber-600">Comprehensive</span>
+              Explore Our <span className="text-[#caa05c]">Comprehensive</span>
               <br />
-              <span className="text-amber-600">Interior Design</span> Services
+              <span className="text-[#caa05c]">Interior Design</span> Services
             </h2>
 
             {/* Description */}
@@ -546,10 +546,10 @@ export function ServicesSection() {
                   <div className="flex items-center flex-1">
                     <span className="text-amber-500 font-bold cal-sans text-lg mr-6 min-w-[3rem]">06</span>
                     <h3 className="text-2xl lg:text-3xl font-bold cal-sans group-hover:text-gray-700 transition-colors duration-300">
-                      Interior <span className="text-amber-600">2D/3D</span> Layouts
+                      Interior <span className="text-[#caa05c]">2D/3D</span> Layouts
                     </h3>
                   </div>
-                  <div className="w-10 h-10 bg-amber-500 rounded-full flex items-center justify-center shadow-lg ml-4">
+                  <div className="w-10 h-10 bg-[#caa05c] rounded-full flex items-center justify-center shadow-lg ml-4">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>

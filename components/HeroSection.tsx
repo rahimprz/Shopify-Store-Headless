@@ -72,7 +72,7 @@ export function HeroSection() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold mb-6 sm:mb-8 md:mb-12 leading-[0.85] sm:leading-[0.9] text-white cal-sans opacity-0 hero-text tracking-tight max-w-7xl group">
             The Art of Stunning
             <br />
-            <span className="bg-gradient-to-r from-amber-400 via-orange-500 to-amber-400 bg-clip-text text-transparent animate-pulse">Interior Design</span>
+            <span className="text-white">Interior Design</span>
           </h1>
 
           {/* Subtitle */}
@@ -83,7 +83,7 @@ export function HeroSection() {
 
           {/* CTA Button */}
           <div className="opacity-0 hero-button">
-            <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 sm:px-10 md:px-14 py-4 sm:py-5 md:py-7 rounded-full text-base sm:text-lg md:text-xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-3xl hover:scale-110 group cal-sans relative overflow-hidden">
+            <Button className="bg-[#caa05c] hover:bg-[#b8945a] text-white px-8 sm:px-10 md:px-14 py-4 sm:py-5 md:py-7 rounded-full text-base sm:text-lg md:text-xl font-semibold transition-all duration-500 shadow-2xl hover:shadow-3xl hover:scale-110 group cal-sans relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <span className="relative z-10">
               Get Started Today

@@ -325,20 +325,20 @@
     left: 0;
     width: 20px;
     height: 20px;
-    background: linear-gradient(135deg, #f59e0b, #d97706);
+    background: linear-gradient(135deg, #caa05c, #b8945a);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
     transform: translate(-50%, -50%);
     transition: all 0.15s ease-out;
-    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+    box-shadow: 0 0 20px rgba(202, 160, 92, 0.3);
     mix-blend-mode: difference;
   }
 
   .custom-cursor.hover {
     transform: translate(-50%, -50%) scale(1.8);
-    background: linear-gradient(135deg, #fbbf24, #f59e0b);
-    box-shadow: 0 0 30px rgba(245, 158, 11, 0.6);
+    background: linear-gradient(135deg, #caa05c, #b8945a);
+    box-shadow: 0 0 30px rgba(202, 160, 92, 0.6);
   }
 
   .custom-cursor.click {

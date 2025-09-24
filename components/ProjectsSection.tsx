@@ -101,7 +101,7 @@ export function ProjectsSection() {
             </Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 cal-sans">
               <span className="block">Creative Projects That</span>
-              <span className="text-amber-600 block">Define Our Style</span>
+              <span className="text-[#caa05c] block">Define Our Style</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Our Project showcases a diverse range of projects, from beautifully crafted residential spaces to functional and stylish commercial interiors
@@ -118,8 +118,8 @@ export function ProjectsSection() {
                 onClick={() => handleFilterChange(type)}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center gap-2 transform hover:scale-105 ${
                   selectedFilter === type
-                    ? 'bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-xl scale-105 animate-pulse'
-                    : 'bg-white text-gray-600 hover:bg-amber-50 hover:text-amber-600 shadow-md hover:shadow-xl border border-gray-200 hover:border-amber-200'
+                    ? 'bg-[#caa05c] text-white shadow-xl scale-105 animate-pulse'
+                    : 'bg-white text-gray-600 hover:bg-[#caa05c]/10 hover:text-[#caa05c] shadow-md hover:shadow-xl border border-gray-200 hover:border-[#caa05c]/30'
                 }`}
               >
                 <Filter className={`w-4 h-4 ${selectedFilter === type ? 'animate-spin' : ''}`} style={{ animationDuration: '2s' }} />
@@ -153,7 +153,7 @@ export function ProjectsSection() {
                   <Button
                     onClick={handleLoadMore}
                     size="lg"
-                    className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-10 py-4 rounded-full font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group"
+                    className="bg-[#caa05c] hover:bg-[#b8945a] text-white px-10 py-4 rounded-full font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 group"
                   >
                     Load More Projects
                     <Grid className="w-5 h-5 ml-2 group-hover:rotate-180 transition-transform duration-500" />
@@ -181,25 +181,25 @@ export function ProjectsSection() {
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border border-gray-100 hover:shadow-3xl transition-all duration-500 transform hover:scale-[1.02]">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center group hover:scale-110 transition-transform duration-300">
-                <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                <div className="text-3xl md:text-4xl font-bold text-[#caa05c] mb-2 group-hover:text-[#b8945a] transition-colors duration-300">
                   {products.length}+
                 </div>
                 <div className="text-gray-600 font-medium group-hover:text-gray-800 transition-colors duration-300">Projects Completed</div>
               </div>
               <div className="text-center group hover:scale-110 transition-transform duration-300">
-                <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                <div className="text-3xl md:text-4xl font-bold text-[#caa05c] mb-2 group-hover:text-[#b8945a] transition-colors duration-300">
                   {Array.from(new Set(products.map(p => p.productType))).length}
                 </div>
                 <div className="text-gray-600 font-medium group-hover:text-gray-800 transition-colors duration-300">Design Categories</div>
               </div>
               <div className="text-center group hover:scale-110 transition-transform duration-300">
-                <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                <div className="text-3xl md:text-4xl font-bold text-[#caa05c] mb-2 group-hover:text-[#b8945a] transition-colors duration-300">
                   100%
                 </div>
                 <div className="text-gray-600 font-medium group-hover:text-gray-800 transition-colors duration-300">Client Satisfaction</div>
               </div>
               <div className="text-center group hover:scale-110 transition-transform duration-300">
-                <div className="text-3xl md:text-4xl font-bold text-amber-600 mb-2 group-hover:text-orange-600 transition-colors duration-300">
+                <div className="text-3xl md:text-4xl font-bold text-[#caa05c] mb-2 group-hover:text-[#b8945a] transition-colors duration-300">
                   5★
                 </div>
                 <div className="text-gray-600 font-medium group-hover:text-gray-800 transition-colors duration-300">Average Rating</div>

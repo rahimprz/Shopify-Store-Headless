@@ -121,9 +121,9 @@ export function PanoramaSection() {
         <AnimatedSection animation="slideInUp" delay={600} className="text-center mb-16">
           <div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 mb-6 cal-sans leading-[0.9] tracking-tight">
-              Create An Even <span className="text-amber-600">Greater</span>
+              Create An Even <span className="text-[#caa05c]">Greater</span>
               <br />
-              <span className="text-amber-600">Experience</span>
+              <span className="text-[#caa05c]">Experience</span>
             </h2>
           </div>
         </AnimatedSection>
@@ -147,7 +147,7 @@ export function PanoramaSection() {
                 <div className="bg-white/95 backdrop-blur-sm rounded-full p-6 shadow-2xl transform scale-90 group-hover:scale-100 transition-transform duration-500">
                   <Button
                     size="lg"
-                    className="bg-amber-500 hover:bg-amber-600 text-white rounded-full w-20 h-20 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300"
+                    className="bg-[#caa05c] hover:bg-[#b8945a] text-white rounded-full w-20 h-20 flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300"
                   >
                     <Play className="w-8 h-8 ml-1" />
                   </Button>
@@ -176,7 +176,7 @@ export function PanoramaSection() {
               </div>
 
               {/* Room Labels */}
-              <div className="absolute top-1/4 left-1/4 bg-amber-500/90 backdrop-blur-sm rounded-full px-3 py-1 shadow-lg animate-pulse">
+              <div className="absolute top-1/4 left-1/4 bg-[#caa05c]/90 backdrop-blur-sm rounded-full px-3 py-1 shadow-lg animate-pulse">
                 <span className="text-white text-xs font-bold cal-sans">Living Room</span>
               </div>
 
@@ -199,7 +199,7 @@ export function PanoramaSection() {
         {/* Bottom CTA */}
         <AnimatedSection animation="slideInUp" delay={1000} className="text-center mt-16">
           <div>
-            <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-10 py-5 rounded-full font-semibold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 cal-sans text-lg flex items-center">
+            <Button className="bg-[#caa05c] hover:bg-[#b8945a] text-white px-10 py-5 rounded-full font-semibold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 cal-sans text-lg flex items-center">
               Experience 360° Tour
               <RotateCcw className="ml-3 w-5 h-5" />
             </Button>
