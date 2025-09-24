@@ -199,8 +199,9 @@ export function PanoramaSection() {
         {/* Bottom CTA */}
         <AnimatedSection animation="slideInUp" delay={1000} className="text-center mt-16">
           <div>
-            <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cal-sans text-lg">
+            <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-10 py-5 rounded-full font-semibold transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 cal-sans text-lg flex items-center">
               Experience 360° Tour
+              <RotateCcw className="ml-3 w-5 h-5" />
             </Button>
           </div>
         </AnimatedSection>

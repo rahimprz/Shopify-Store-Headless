@@ -66,7 +66,7 @@ export function TestimonialsSection() {
           <AnimatedSection animation="slideInLeft" delay={400}>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                src="https://demo2.themelexus.com/antra/wp-content/uploads/2025/06/h1-banner08.jpg"
                 alt="Construction Team Working"
                 className="w-full h-[500px] lg:h-[600px] object-cover"
               />

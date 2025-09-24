@@ -3,7 +3,7 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 
 interface AnimatedSectionProps {
   children: React.ReactNode;
-  animation?: 'slideInLeft' | 'slideInRight' | 'slideInUp' | 'slideInDown' | 'fadeIn' | 'scaleIn';
+  animation?: 'slideInLeft' | 'slideInRight' | 'slideInUp' | 'slideInDown' | 'fadeIn' | 'scaleIn' | 'rotateIn' | 'bounceIn';
   delay?: number;
   className?: string;
 }
@@ -22,7 +22,9 @@ export function AnimatedSection({
     slideInUp: 'translate-y-[50px] opacity-0',
     slideInDown: 'translate-y-[-50px] opacity-0',
     fadeIn: 'opacity-0',
-    scaleIn: 'scale-75 opacity-0'
+    scaleIn: 'scale-75 opacity-0',
+    rotateIn: 'rotate-180 scale-75 opacity-0',
+    bounceIn: 'scale-50 opacity-0'
   };
 
   const visibleClasses = {
@@ -31,14 +33,16 @@ export function AnimatedSection({
     slideInUp: 'translate-y-0 opacity-100',
     slideInDown: 'translate-y-0 opacity-100',
     fadeIn: 'opacity-100',
-    scaleIn: 'scale-100 opacity-100'
+    scaleIn: 'scale-100 opacity-100',
+    rotateIn: 'rotate-0 scale-100 opacity-100',
+    bounceIn: 'scale-100 opacity-100'
   };
 
   return (
     <div
       ref={elementRef}
       className={`
-        transition-all duration-700 ease-out
+        transition-all duration-700 ease-out transform
         ${isVisible ? visibleClasses[animation] : animationClasses[animation]}
         ${className}
       `}

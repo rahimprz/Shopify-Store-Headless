@@ -61,15 +61,15 @@ export function ProcessSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Step 01 - Initial Consultation */}
             <AnimatedSection animation="slideInRight" delay={400}>
-              <div className="relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-3 border border-gray-100 group overflow-hidden">
+              <div className="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-2 border border-gray-100 group overflow-hidden">
                 {/* Large number background */}
-                <div className="absolute -bottom-4 -right-4 text-8xl font-bold text-gray-100 cal-sans select-none">
+                <div className="absolute -bottom-2 -right-2 text-6xl font-bold text-gray-100 cal-sans select-none">
                   01
                 </div>
 
                 {/* Image */}
-                <div className="relative z-10 mb-6">
-                  <div className="w-full h-32 bg-gray-200 rounded-2xl overflow-hidden">
+                <div className="relative z-10 mb-4">
+                  <div className="w-full h-28 bg-gray-200 rounded-2xl overflow-hidden">
                     <img
                       src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                       alt="Initial Consultation"
@@ -80,7 +80,7 @@ export function ProcessSection() {
 
                 {/* Content */}
                 <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-gray-900 cal-sans mb-4">
+                  <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
                     <span className="text-amber-600">01.</span> Initial
                     <br />
                     Consultation
@@ -94,15 +94,15 @@ export function ProcessSection() {
 
             {/* Step 02 - Design & Planning */}
             <AnimatedSection animation="slideInRight" delay={600}>
-              <div className="relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-3 border border-gray-100 group overflow-hidden">
+              <div className="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-2 border border-gray-100 group overflow-hidden">
                 {/* Large number background */}
-                <div className="absolute -bottom-4 -right-4 text-8xl font-bold text-gray-100 cal-sans select-none">
+                <div className="absolute -bottom-2 -right-2 text-6xl font-bold text-gray-100 cal-sans select-none">
                   02
                 </div>
 
                 {/* Image */}
-                <div className="relative z-10 mb-6">
-                  <div className="w-full h-32 bg-gray-200 rounded-2xl overflow-hidden">
+                <div className="relative z-10 mb-4">
+                  <div className="w-full h-28 bg-gray-200 rounded-2xl overflow-hidden">
                     <img
                       src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                       alt="Design & Planning"
@@ -113,7 +113,7 @@ export function ProcessSection() {
 
                 {/* Content */}
                 <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-gray-900 cal-sans mb-4">
+                  <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
                     <span className="text-amber-600">02.</span> Design &
                     <br />
                     Planning
@@ -127,15 +127,15 @@ export function ProcessSection() {
 
             {/* Step 03 - Implementation */}
             <AnimatedSection animation="slideInRight" delay={800}>
-              <div className="relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-3 border border-gray-100 group overflow-hidden">
+              <div className="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-2 border border-gray-100 group overflow-hidden">
                 {/* Large number background */}
-                <div className="absolute -bottom-4 -right-4 text-8xl font-bold text-gray-100 cal-sans select-none">
+                <div className="absolute -bottom-2 -right-2 text-6xl font-bold text-gray-100 cal-sans select-none">
                   03
                 </div>
 
                 {/* Image */}
-                <div className="relative z-10 mb-6">
-                  <div className="w-full h-32 bg-gray-200 rounded-2xl overflow-hidden">
+                <div className="relative z-10 mb-4">
+                  <div className="w-full h-28 bg-gray-200 rounded-2xl overflow-hidden">
                     <img
                       src="https://images.pexels.com/photos/6782342/pexels-photo-6782342.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                       alt="Implementation"
@@ -146,7 +146,7 @@ export function ProcessSection() {
 
                 {/* Content */}
                 <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-gray-900 cal-sans mb-4">
+                  <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
                     <span className="text-amber-600">03.</span> Implementation
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed cal-sans font-light">
@@ -158,15 +158,15 @@ export function ProcessSection() {
 
             {/* Step 04 - Project Handover */}
             <AnimatedSection animation="slideInRight" delay={1000}>
-              <div className="relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-3 border border-gray-100 group overflow-hidden">
+              <div className="relative bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition-all duration-700 hover:-translate-y-2 border border-gray-100 group overflow-hidden">
                 {/* Large number background */}
-                <div className="absolute -bottom-4 -right-4 text-8xl font-bold text-gray-100 cal-sans select-none">
+                <div className="absolute -bottom-2 -right-2 text-6xl font-bold text-gray-100 cal-sans select-none">
                   04
                 </div>
 
                 {/* Image */}
-                <div className="relative z-10 mb-6">
-                  <div className="w-full h-32 bg-gray-200 rounded-2xl overflow-hidden">
+                <div className="relative z-10 mb-4">
+                  <div className="w-full h-28 bg-gray-200 rounded-2xl overflow-hidden">
                     <img
                       src="https://images.pexels.com/photos/6782342/pexels-photo-6782342.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
                       alt="Project Handover"
@@ -177,7 +177,7 @@ export function ProcessSection() {
 
                 {/* Content */}
                 <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-gray-900 cal-sans mb-4">
+                  <h3 className="text-lg font-bold text-gray-900 cal-sans mb-3">
                     <span className="text-amber-600">04.</span> Project Handover
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed cal-sans font-light">

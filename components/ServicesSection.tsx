@@ -238,8 +238,8 @@ export function ServicesSection() {
               {/* Feature List */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
                 <div className="flex items-center text-white">
-                  <div className="w-6 h-6 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center shadow-lg">
-                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-3 h-3">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -251,8 +251,8 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-6 h-6 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center shadow-lg">
-                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-3 h-3">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -264,8 +264,8 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-6 h-6 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center shadow-lg">
-                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-3 h-3">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -277,8 +277,8 @@ export function ServicesSection() {
                 </div>
 
                 <div className="flex items-center text-white">
-                  <div className="w-6 h-6 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center shadow-lg">
-                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-3 h-3">
+                  <div className="w-8 h-8 mr-4 flex-shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg border-2 border-white/20">
+                    <svg viewBox="0 0 20 20" fill="currentColor" className="text-white w-4 h-4">
                       <path
                         fillRule="evenodd"
                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -298,12 +298,12 @@ export function ServicesSection() {
 
               {/* More About Us Button */}
               <div className="inline-block">
-                <Button className="bg-transparent border-2 border-amber-500 text-white hover:bg-amber-500 hover:text-gray-900 px-8 py-4 rounded-full font-semibold transition-all duration-300 group cal-sans text-base flex items-center shadow-lg hover:shadow-2xl hover:scale-105 backdrop-blur-sm">
+                <Button className="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 group cal-sans text-base flex items-center shadow-xl hover:shadow-2xl hover:scale-105">
                   More About Us
-                  <div className="ml-4 w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center group-hover:bg-gradient-to-br group-hover:from-gray-800 group-hover:to-gray-900 transition-all duration-300 shadow-lg">
-                    <span className="text-white group-hover:text-amber-400 font-bold text-lg transition-colors duration-300">
-                      →
-                    </span>
+                  <div className="ml-3 w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-all duration-300">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
                   </div>
                 </Button>
               </div>
